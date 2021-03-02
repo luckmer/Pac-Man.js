@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: black;
+    color: wheat;
+    max-width: 700px;
+    height: 100vh;
+    align-items: center;
+    margin: auto;
+
+}
+
+.ControlPanel {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.ControlPanel button {
+    margin-top: 10px;
+    border: 0;
+    background-color: black;
+    color: wheat;
+    font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;
+
+}
+
+
+.map {
+    display: flex;
+    flex-wrap: wrap;
+    width: 560px;
+    background-color: #0378e6;
+}
+
+
+.ghost {
+    width: 20px;
+    height: 20px;
+}
+
+.Player {
+    width: 20px;
+    height: 20px;
+    background-color: orangered;
+}
+
+.disabled {
+    opacity: 0;
+}
+
+.Lock {
+    width: 20px;
+    height: 20px;
+    background-color: #CF72F4;
+}
+
+.wall {
+    width: 20px;
+    height: 20px;
+    background-color: black;
+}
+
+.points {
+    width: 20px;
+    height: 20px;
+    background-color: orange;
+}
+
+.EmptySpace {
+    width: 20px;
+    height: 20px;
+    background-color: #0378e6;
+}
+
+.space {
+    margin: 6.5px;
+    width: 7px;
+    height: 7px;
+    border-radius: 100px;
+    background-color: #0062be;
+}
+
+.apple {
+    width: 20px;
+    height: 20px;
+    background-color: orange;
+}
